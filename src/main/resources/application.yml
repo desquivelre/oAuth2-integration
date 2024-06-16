@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: login-template
+  datasource:
+    url: jdbc:mysql://localhost:3306/dblogintemplate
+    username: root
+    password: Deg159753#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: create-drop
